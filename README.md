@@ -59,15 +59,20 @@ Built with React Native and Expo, this app offers robust features to enhance the
 ## Demo:
 1. User Authentication & Main Page
 
-https://github.com/user-attachments/assets/e0ea82e7-3619-46d2-9f1a-4150a72383e1
+https://github.com/user-attachments/assets/c54c990c-2f53-4d0e-a772-df45416b921f
+
 
 2. Note Editing and Saving
 
-https://github.com/user-attachments/assets/0d4b9fe6-36df-4417-a9d2-d695c4b7330b
+
+https://github.com/user-attachments/assets/4eb7d91b-07df-4172-9d48-046c2fc27010
+
 
 3. Template & Customization Options:
 
-https://github.com/user-attachments/assets/18cb3296-91d2-46ae-ae95-f5cb565a3d77
+
+https://github.com/user-attachments/assets/09c6254d-905b-4894-a0a5-eca53ed6ea84
+
 
 4. Text Recognition and Summary
    
