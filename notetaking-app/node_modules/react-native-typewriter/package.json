@@ -1,0 +1,68 @@
+{
+  "name": "react-native-typewriter",
+  "version": "0.7.0",
+  "description": "A React Native component for creating typing effects",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TaylorBriggs/react-native-typewriter.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "component",
+    "animated",
+    "typing",
+    "typewriter"
+  ],
+  "author": "Taylor Briggs <taylor.briggs.dev@gmail.com> (https://taylor-briggs.com)",
+  "contributors": [
+    "Ian Dilling <ianbjorndilling@gmail.com>",
+    "Peter Mikitsh <peter.mikitsh@gmail.com>",
+    "maxkomarychev (https://github.com/maxkomarychev)",
+    "Przemek Sobstel <przemek@sobstel.org> (http://www.sobstel.org)"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.7"
+  },
+  "peerDependencies": {
+    "react": ">=15.4.x",
+    "react-native": ">=0.41.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "babel-jest": "24.1.0",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.10.0",
+    "eslint": "5.15.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jest": "22.3.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "jest": "24.1.0",
+    "jest-enzyme": "7.0.1",
+    "jsdom": "13.2.0",
+    "pre-commit": "1.2.2",
+    "react": "16.11.0",
+    "react-dom": "16.8.3",
+    "react-native": "0.62"
+  },
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "<rootDir>setup-tests.js"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    }
+  }
+}
